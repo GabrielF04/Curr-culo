@@ -10,6 +10,9 @@ class MobileNavbar {
     animatedLinks() {
         this.navLinks.forEach((link)=> {
           link.style.animation
+          ? (link.style.animation = "")
+          : (link.style.animation = `navLinkFade 0.5s ease forwards 0.
+          3s`)
         });
     }
 
@@ -29,7 +32,7 @@ class MobileNavbar {
     }
 }
 
-const MobileNavBar = new MobileNavBar(
+const MobileNavBar = new MobileNavbar(
     ".mobileMenu",
     ".nav-list",
     ".nav-list li",
