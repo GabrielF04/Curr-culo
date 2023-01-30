@@ -99,3 +99,50 @@ main{
         transform: translateX(50px);
     }
 }
+
+/*********** Conteudo do curriculo**********************/
+
+#experiencias {
+    padding: 50px;
+    color: black;
+    text-align: center;
+    margin-right: 500px;
+    margin-left: 300px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    background-image: url(fundo.jpg);
+    border: 1px solid black;
+    display: block;
+}
+#experiencias h2 {
+    padding: 20px;
+}
+
+#info {
+    padding: 50px;
+    color: black;
+    text-align: center;
+    margin-right: 500px;
+    margin-left: 300px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    background-image: url(fundo.jpg);
+    border: 1px solid black;
+    display: block;
+}
+
+#contato {
+    padding: 50px;
+    color: black;
+    text-align: center;
+    margin-right: 500px;
+    margin-left: 300px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    background-image: url(fundo.jpg);
+    border: 1px solid black;
+    display: block;
+}
+
+
+
